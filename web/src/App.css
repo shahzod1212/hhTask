@@ -1,0 +1,56 @@
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  font-family: system-ui, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th.num,
+td.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+tr.changed td {
+  background: #f6fbf6;
+}
+
+.badge {
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.85em;
+  background: #eee;
+}
+
+.badge.UNDERCUT {
+  background: #d9f2d9;
+}
+
+.badge.AT_MIN {
+  background: #fde2cf;
+}
+
+.badge.AT_MAX {
+  background: #dce8fb;
+}
+
+.status {
+  padding: 24px;
+  font-family: system-ui, sans-serif;
+}
+
+.status.error {
+  color: #b00020;
+}
